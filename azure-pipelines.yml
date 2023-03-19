@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: default
+  vmImage: vasavis-MacBook-Air
 
 steps:
 - task: Maven@3
